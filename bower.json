@@ -1,0 +1,21 @@
+{
+  "name": "lupin.js",
+  "version": "0.0.1",
+  "main": "lupin.min.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "vendor/*"
+  ],
+  "devDependencies": {
+    "jquery": "1.9.1",
+    "pocket": "*",
+    "labjs": "*",
+    "font-awesome": "~4.0.3",
+    "angular": "~1.2.4"
+  },
+  "exportsOverride": {
+    "jquery": "jquery.min.js",
+    "labjs": "LAB.min.js"
+  }
+}

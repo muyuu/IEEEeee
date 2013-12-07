@@ -1,0 +1,53 @@
+!!! 5
+html(ng-app)
+  head
+    meta(name="viewport",content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no")
+    meta(charset="UTF-8")
+    link(rel="stylesheet",href="libs/font-awesome/css/font-awesome.min.css")
+    link(rel="stylesheet",href="style.css")
+    title IEEEeee!!!
+
+  body
+    header.pageHeader
+      h1 IEEEeee!!!
+      p CSSのセレクタとか機能とかがIEのどのバージョンで対応しているかの表を見やすく作ってみる
+
+    section
+      .container(ng-controller="ieCtrl")
+        h2 対応表
+        .length
+          p 絞り込み
+            input(type="text",ng-model="query")
+        table.table
+          tr
+            th プロパティとか
+            td IE6
+            td IE7
+            td IE8
+            td IE9
+            td IE10
+          tr(ng-repeat="prop in props|orderBy:type|filter:query")
+            th {{prop.type}}<br>{{prop.name}}
+            td(ng-if="prop.ie6") ○
+            td(ng-if="!prop.ie6") ×
+            td(ng-if="prop.ie7") ○
+            td(ng-if="!prop.ie7") ×
+            td(ng-if="prop.ie8") ○
+            td(ng-if="!prop.ie8") ×
+            td(ng-if="prop.ie9") ○
+            td(ng-if="!prop.ie9") ×
+            td(ng-if="prop.ie10") ○
+            td(ng-if="!prop.ie10") ×
+
+
+    footer.pageFooter
+      p.copyright Created by <a href="http://anticyb.org/" target="_blank">muyuu</a>
+
+    script(src="libs/labjs/LAB.min.js")
+    script.
+      $LAB
+      //- .script("libs/jquery/jquery.min.js").wait()
+      //- .script("libs/pocket/pocket.min.js").wait()
+      .script("libs/angular/angular.min.js").wait()
+      .script("app.js");
+

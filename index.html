@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html ng-app>
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>IEEEeee!!!</title>
+  </head>
+  <body>
+    <header class="pageHeader">
+      <h1>IEEEeee!!!</h1>
+      <p>CSSのセレクタとか機能とかがIEのどのバージョンで対応しているかの表を見やすく作ってみる</p>
+    </header>
+    <section>
+      <div ng-controller="ieCtrl" class="container">
+        <h2>対応表</h2>
+        <div class="length">
+          <p>絞り込み
+            <input type="text" ng-model="query">
+          </p>
+        </div>
+        <table class="table">
+          <tr>
+            <th>プロパティとか</th>
+            <td>IE6</td>
+            <td>IE7</td>
+            <td>IE8</td>
+            <td>IE9</td>
+            <td>IE10</td>
+          </tr>
+          <tr ng-repeat="prop in props|orderBy:type|filter:query">
+            <th>{{prop.type}}<br>{{prop.name}}</th>
+            <td ng-if="prop.ie6">○</td>
+            <td ng-if="!prop.ie6">×</td>
+            <td ng-if="prop.ie7">○</td>
+            <td ng-if="!prop.ie7">×</td>
+            <td ng-if="prop.ie8">○</td>
+            <td ng-if="!prop.ie8">×</td>
+            <td ng-if="prop.ie9">○</td>
+            <td ng-if="!prop.ie9">×</td>
+            <td ng-if="prop.ie10">○</td>
+            <td ng-if="!prop.ie10">×</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <footer class="pageFooter">
+      <p class="copyright">Created by <a href="http://anticyb.org/" target="_blank">muyuu</a></p>
+    </footer>
+    <script src="libs/labjs/LAB.min.js"></script>
+    <script>
+      $LAB
+      //- .script("libs/jquery/jquery.min.js").wait()
+      //- .script("libs/pocket/pocket.min.js").wait()
+      .script("libs/angular/angular.min.js").wait()
+      .script("app.js");
+      
+    </script>
+  </body>
+</html>
