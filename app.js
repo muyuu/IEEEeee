@@ -10,6 +10,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie7ie8ie9ie10ie11"
     }, {
       type: "html",
@@ -19,6 +20,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie7ie8ie9ie10ie11"
     }, {
       type: "css",
@@ -28,6 +30,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie7ie8ie9ie10ie11"
     }, {
       type: "css",
@@ -37,6 +40,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie7ie8ie9ie10ie11"
     }, {
       type: "css",
@@ -46,6 +50,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie7ie8ie9ie10ie11"
     }, {
       type: "css",
@@ -55,6 +60,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie7ie8ie9ie10ie11"
     }, {
       type: "css",
@@ -64,6 +70,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie7ie8ie9ie10ie11"
     }, {
       type: "css",
@@ -73,6 +80,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie7ie8ie9ie10ie11"
     }, {
       type: "css",
@@ -82,6 +90,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie7ie8ie9ie10ie11"
     }, {
       type: "css",
@@ -91,6 +100,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie7ie8ie9ie10ie11"
     }, {
       type: "css",
@@ -100,6 +110,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie7ie8ie9ie10ie11"
     }, {
       type: "css",
@@ -109,6 +120,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie7ie8ie9ie10ie11"
     }, {
       type: "css",
@@ -118,6 +130,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie7ie8ie9ie10"
     }, {
       type: "css",
@@ -127,6 +140,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie7ie8ie9ie10ie11"
     }, {
       type: "javascript",
@@ -136,6 +150,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie7ie8ie9ie10ie11"
     }, {
       type: "html",
@@ -145,6 +160,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie8ie9ie10ie11"
     }, {
       type: "html",
@@ -154,6 +170,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie8ie9ie10ie11"
     }, {
       type: "html",
@@ -163,6 +180,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie8ie9ie10ie11"
     }, {
       type: "html",
@@ -172,6 +190,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie8ie9ie10ie11"
     }, {
       type: "html",
@@ -181,6 +200,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie8ie9ie10ie11"
     }, {
       type: "css",
@@ -190,6 +210,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie8ie9ie10ie11"
     }, {
       type: "css",
@@ -199,6 +220,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie8ie9ie10ie11"
     }, {
       type: "css",
@@ -208,6 +230,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie8ie9ie10ie11"
     }, {
       type: "css",
@@ -217,6 +240,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie8ie9ie10ie11"
     }, {
       type: "css",
@@ -226,6 +250,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie8ie9ie10ie11"
     }, {
       type: "css",
@@ -235,6 +260,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie8ie9ie10ie11"
     }, {
       type: "css",
@@ -244,6 +270,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie8ie9ie10ie11"
     }, {
       type: "css",
@@ -253,6 +280,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie8ie9ie10ie11"
     }, {
       type: "css",
@@ -262,6 +290,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie8ie9ie10ie11"
     }, {
       type: "css",
@@ -271,6 +300,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie8ie9ie10ie11"
     }, {
       type: "css",
@@ -280,6 +310,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie8ie9ie10ie11"
     }, {
       type: "css",
@@ -289,6 +320,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie8ie9ie10ie11"
     }, {
       type: "css",
@@ -298,6 +330,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie8ie9ie10ie11"
     }, {
       type: "css",
@@ -307,6 +340,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie8ie9ie10ie11"
     }, {
       type: "css",
@@ -316,6 +350,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie8ie9ie10ie11"
     }, {
       type: "css",
@@ -325,6 +360,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie8ie9ie10ie11"
     }, {
       type: "css",
@@ -334,6 +370,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie8ie9ie10ie11"
     }, {
       type: "css",
@@ -343,6 +380,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie8ie9ie10ie11"
     }, {
       type: "css",
@@ -352,6 +390,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie8ie9ie10ie11"
     }, {
       type: "css",
@@ -361,6 +400,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie8ie9ie10ie11"
     }, {
       type: "css",
@@ -370,6 +410,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie8ie9ie10ie11"
     }, {
       type: "javascript",
@@ -379,6 +420,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie8ie9ie10ie11"
     }, {
       type: "javascript",
@@ -388,6 +430,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie8ie9ie10ie11"
     }, {
       type: "javascript",
@@ -397,6 +440,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie8ie9ie10ie11"
     }, {
       type: "javascript",
@@ -406,6 +450,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie8ie9ie10ie11"
     }, {
       type: "javascript",
@@ -415,6 +460,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie8ie9ie10ie11"
     }, {
       type: "javascript",
@@ -424,6 +470,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie8ie9ie10ie11"
     }, {
       type: "javascript",
@@ -433,6 +480,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie8ie9ie10ie11"
     }, {
       type: "javascript",
@@ -442,6 +490,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie8ie9ie10ie11"
     }, {
       type: "javascript",
@@ -451,6 +500,7 @@ ieCtrl = function($scope) {
       ie8: true,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie8ie9ie10ie11"
     }, {
       type: "html",
@@ -460,6 +510,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "html",
@@ -469,6 +520,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "html",
@@ -478,6 +530,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "html",
@@ -487,6 +540,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "html",
@@ -496,6 +550,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "html",
@@ -505,6 +560,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "html",
@@ -514,6 +570,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "html",
@@ -523,6 +580,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "html",
@@ -532,6 +590,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "html",
@@ -541,6 +600,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "html",
@@ -550,6 +610,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "html",
@@ -559,6 +620,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "html",
@@ -568,6 +630,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "html",
@@ -577,6 +640,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "html",
@@ -586,6 +650,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "html",
@@ -595,6 +660,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "html",
@@ -604,6 +670,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "html",
@@ -613,6 +680,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "css",
@@ -622,6 +690,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "css",
@@ -631,6 +700,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "css",
@@ -640,6 +710,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "css",
@@ -649,6 +720,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "css",
@@ -658,6 +730,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "css",
@@ -667,6 +740,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "css",
@@ -676,6 +750,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "css",
@@ -685,6 +760,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "css",
@@ -694,6 +770,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "css",
@@ -703,6 +780,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "css",
@@ -712,6 +790,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "css",
@@ -721,6 +800,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "css",
@@ -730,6 +810,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "css",
@@ -739,6 +820,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "css",
@@ -748,6 +830,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "css",
@@ -757,6 +840,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "css",
@@ -766,6 +850,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "css",
@@ -775,6 +860,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "css",
@@ -784,6 +870,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       note: "polifil可能",
       support: "ie9ie10ie11"
     }, {
@@ -794,6 +881,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "css",
@@ -803,6 +891,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "css",
@@ -812,6 +901,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "css",
@@ -821,6 +911,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "css",
@@ -830,6 +921,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "css",
@@ -839,6 +931,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "css",
@@ -848,6 +941,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "css",
@@ -857,6 +951,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "css",
@@ -866,6 +961,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "css",
@@ -875,6 +971,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "css",
@@ -884,6 +981,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "css",
@@ -893,6 +991,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "css",
@@ -902,6 +1001,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "css",
@@ -911,6 +1011,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "css",
@@ -920,6 +1021,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "javascript",
@@ -929,6 +1031,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "javascript",
@@ -938,6 +1041,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "javascript",
@@ -947,6 +1051,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "javascript",
@@ -956,6 +1061,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "javascript",
@@ -965,6 +1071,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "javascript",
@@ -974,6 +1081,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "javascript",
@@ -983,6 +1091,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "javascript",
@@ -992,6 +1101,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "javascript",
@@ -1001,6 +1111,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "javascript",
@@ -1010,6 +1121,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "javascript",
@@ -1019,6 +1131,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "javascript",
@@ -1028,6 +1141,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "javascript",
@@ -1037,6 +1151,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "javascript",
@@ -1046,6 +1161,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "javascript",
@@ -1055,6 +1171,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "javascript",
@@ -1064,6 +1181,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "javascript",
@@ -1073,6 +1191,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "javascript",
@@ -1082,6 +1201,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "javascript",
@@ -1091,6 +1211,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: true,
       ie10: true,
+      ie11: true,
       support: "ie9ie10ie11"
     }, {
       type: "html",
@@ -1100,6 +1221,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "html",
@@ -1109,6 +1231,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "html",
@@ -1118,6 +1241,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "html",
@@ -1127,6 +1251,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "html",
@@ -1136,6 +1261,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "html",
@@ -1145,6 +1271,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "html",
@@ -1154,6 +1281,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "html",
@@ -1163,6 +1291,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "html",
@@ -1172,6 +1301,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "html",
@@ -1181,6 +1311,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "html",
@@ -1190,6 +1321,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "html",
@@ -1199,6 +1331,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "html",
@@ -1208,6 +1341,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "html",
@@ -1217,6 +1351,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "html",
@@ -1226,6 +1361,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "html",
@@ -1235,6 +1371,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "html",
@@ -1244,6 +1381,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "html",
@@ -1253,6 +1391,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "html",
@@ -1262,6 +1401,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "html",
@@ -1271,6 +1411,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "html",
@@ -1280,6 +1421,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "html",
@@ -1289,6 +1431,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "html",
@@ -1298,6 +1441,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "html",
@@ -1307,6 +1451,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "html",
@@ -1316,6 +1461,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "html",
@@ -1325,6 +1471,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "html",
@@ -1334,6 +1481,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "html",
@@ -1343,6 +1491,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "html",
@@ -1352,6 +1501,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "html",
@@ -1361,6 +1511,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "html",
@@ -1370,6 +1521,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "html",
@@ -1379,6 +1531,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "html",
@@ -1388,6 +1541,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "html",
@@ -1397,6 +1551,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "html",
@@ -1406,6 +1561,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "html",
@@ -1415,6 +1571,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "html",
@@ -1424,6 +1581,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "html",
@@ -1433,6 +1591,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "html",
@@ -1442,6 +1601,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "html",
@@ -1451,6 +1611,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "html",
@@ -1460,6 +1621,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "html",
@@ -1469,6 +1631,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "css",
@@ -1478,6 +1641,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "css",
@@ -1487,6 +1651,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "css",
@@ -1496,6 +1661,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "css",
@@ -1505,6 +1671,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "css",
@@ -1514,6 +1681,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }, {
       type: "javascript",
@@ -1523,6 +1691,7 @@ ieCtrl = function($scope) {
       ie8: false,
       ie9: false,
       ie10: true,
+      ie11: true,
       support: "ie10ie11"
     }
   ];

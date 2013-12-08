@@ -227,9 +227,11 @@ input, textarea {
 
 .table {
   width: 100%;
+  margin: 1em 0;
 }
 .table thead th, .table thead td, .table tbody th, .table tbody td {
   padding: 1em;
+  vertical-align: middle;
   text-align: left;
   border-bottom: 1px solid #efefef;
 }
@@ -517,7 +519,7 @@ input, textarea {
 .pageHeader {
   background: #44bea7;
   color: #073845;
-  padding: 6em;
+  padding: 3em;
 }
 .pageHeader h1 {
   color: #eeeeee;
@@ -631,11 +633,54 @@ h3 {
   font-size: 1.2em;
 }
 
+.table {
+  width: 100%;
+  margin: 2em 0 1em;
+}
+.table thead th, .table thead td, .table tbody th, .table tbody td {
+  border: 1px solid #efefef;
+}
+.table thead td, .table tbody td {
+  text-align: center;
+}
+.table tbody th {
+  width: 50%;
+}
+.table tbody td {
+  width: 10%;
+}
+.table tbody .true {
+  background: #883333;
+  color: black;
+}
+
 .length input {
   width: 400px;
   padding: 10px;
   -webkit-border-radius: 6px;
   border-radius: 6px;
+}
+
+.type {
+  display: inline-block;
+  padding: 0.2em 0.4em;
+  background: #cccccc;
+  color: #eeeeee;
+  font-size: 0.7em;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.type-html {
+  background: #f1652c;
+}
+
+.type-css {
+  background: #2eb1e7;
+}
+
+.type-javascript {
+  background: #f2c026;
 }
 
 @media screen and (max-width: 800px) {

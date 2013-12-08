@@ -14,9 +14,8 @@ html(ng-app)
 
     section
       .container(ng-controller="ieCtrl")
-        h2 対応表
         .length
-          p 絞り込み
+          p キーワードで絞り込み
             input(type="text",ng-model="query")
         table.table
           tr
@@ -26,18 +25,23 @@ html(ng-app)
             td IE8
             td IE9
             td IE10
+            td IE11
           tr(ng-repeat="prop in props|orderBy:type|filter:query")
-            th {{prop.type}}<br>{{prop.name}}
-            td(ng-if="prop.ie6") ○
-            td(ng-if="!prop.ie6") ×
-            td(ng-if="prop.ie7") ○
-            td(ng-if="!prop.ie7") ×
-            td(ng-if="prop.ie8") ○
-            td(ng-if="!prop.ie8") ×
-            td(ng-if="prop.ie9") ○
-            td(ng-if="!prop.ie9") ×
-            td(ng-if="prop.ie10") ○
-            td(ng-if="!prop.ie10") ×
+            th
+              <span class="type type-{{prop.type}}">{{prop.type}}</span><br>
+              span.name {{prop.name}}
+            td.true(ng-if="prop.ie6") ○
+            td.false(ng-if="!prop.ie6") ×
+            td.true(ng-if="prop.ie7") ○
+            td.false(ng-if="!prop.ie7") ×
+            td.true(ng-if="prop.ie8") ○
+            td.false(ng-if="!prop.ie8") ×
+            td.true(ng-if="prop.ie9") ○
+            td.false(ng-if="!prop.ie9") ×
+            td.true(ng-if="prop.ie10") ○
+            td.false(ng-if="!prop.ie10") ×
+            td.true(ng-if="prop.ie11") ○
+            td.false(ng-if="!prop.ie11") ×
 
 
     footer.pageFooter
