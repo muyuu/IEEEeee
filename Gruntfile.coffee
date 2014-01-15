@@ -1,22 +1,7 @@
 module.exports = (grunt) ->
 
-  grunt.loadNpmTasks('grunt-contrib-coffee')
-  grunt.loadNpmTasks('grunt-contrib-connect')
-  grunt.loadNpmTasks('grunt-contrib-jade')
-  grunt.loadNpmTasks('grunt-contrib-jshint')
-  grunt.loadNpmTasks('grunt-contrib-sass')
-  grunt.loadNpmTasks('grunt-contrib-uglify')
-  grunt.loadNpmTasks('grunt-contrib-watch')
-
-  GRUNT_CHANGED_PATH = '.grunt-changed-file'
-  if grunt.file.exists GRUNT_CHANGED_PATH
-    changed = grunt.file.read GRUNT_CHANGED_PATH
-    grunt.file.delete GRUNT_CHANGED_PATH
-    changed_only = (file)-> file is changed
-  else
-    changed_only = -> true
-
-  data = {}
+  # Load grunt tasks automatically
+  require('load-grunt-tasks') grunt
 
   grunt.initConfig
     pkg: grunt.file.readJSON('package.json')
@@ -25,74 +10,92 @@ module.exports = (grunt) ->
     connect:
       server:
         options:
-          port: 9000
+          port: 3000
+          livereload: true
+          open: true
 
-    # watch
-    watch:
-      jade:
-        files: '**/*.jade'
-        tasks: 'jade'
-      html:
-        files: '**/*.html'
-        options:
-          livereload: true
-          nospawn: true
-      sass:
-        files: '**/*.s*ss'
-        tasks: 'sass'
-        options:
-          livereload: true
-          nospawn: true
-      coffee:
-        files: 'src/coffee/*.coffee'
-        tasks: ['coffee','uglify']
-        options:
-          livereload: true
-          nospawn: true
+    # estwatch
+    esteWatch:
+      options:
+        dirs: ["src/**/", "js/"]
+        livereload:
+          enabled: true
+          port: 35729
+          extensions: ['jade', 'js', 'sass','scss']
+      jade: (filepath) ->
+        # パーシャルファイルに変更があった場合は
+        # とりあえずパーシャル以外の全ファイルを書き出す
+        lastslashnum = filepath.lastIndexOf "/"
+        filename = filepath.substring lastslashnum + 1, filepath.length
+        if filename.indexOf("_") is 0
+          filepath = ['**/*.jade', '!**/_*.jade']
+        else
+          filepath = filepath.replace "src/", ""
 
-    # jade
-    jade:
-      files:
-        options: pretty: true
-        expand : true
-        cwd    : 'src/' # 対象フォルダ
-        src    : ['**/*.jade', '!**/_*.jade']
-        dest   : '' # コンパイルフォルダ
-        ext    : '.html'
-        filter : changed_only
+        # 改行とかつけたまま出力
+        grunt.config 'jade.options.pretty', true
+        grunt.config 'jade.compile.files', [
+          expand : true
+          src    : filepath
+          cwd    : 'src/' # 対象フォルダ
+          dest   : '' # コンパイルフォルダ
+          ext    : '.html'
+        ]
+        'jade'
+      coffee: (filepath) ->
+        filename = filepath.replace "src/coffee/", ""
+        grunt.config 'coffee.compile.options',
+          bare: true
+          sourceMap: true
+        grunt.config 'coffee.compile.files', [
+          expand : true
+          src    : filename
+          cwd    : 'src/coffee/' # 対象フォルダ
+          dest   : '' # コンパイルフォルダ
+          ext    : '.js'
+        ]
+        'coffee'
+      js: (filepath) ->
+        'jshint'
+      scss: (filepath) ->
+        'sass:compile'
+      sass: (filepath) ->
+        'sass:compile'
 
     # sass
     sass:
-      options:
-        # sourcemap: true
-        style: 'expanded'
-      compile:
-        files: 'style.css':'src/sass/style.sass'
-      filter : changed_only
-
-    # coffee
-    coffee:
       compile:
         options:
-          bare: true
+          sourcemap: true
+          style: 'expanded'
         files:
-          "lupin.js": "src/coffee/lupin.coffee"
-          "app.js": "src/coffee/app.coffee"
+          'style.css': 'src/sass/style.sass'
+      build:
+        options:
+          style: 'compressed'
+        files:
+          'style.css': 'src/sass/style.sass'
 
-    # 圧縮
+    # jshint
+    jshint:
+      options:
+        jshintrc: '.jshintrc'
+      all: [
+        'app.js'
+      ]
+
+    # comp
     uglify:
       build:
         files:
-          "lupin.min.js": ["lupin.js"]
-
-  grunt.event.on 'watch', (action, changed)->
-    if action is 'changed'
-      if not /(layout)/.test changed
-        grunt.file.write GRUNT_CHANGED_PATH, changed
+          "app.min.js": ["app.js"]
 
 
-  # 開発ビルド
-  grunt.registerTask "default", ["connect", "watch",'connect:livereload']
+  # start local server
+  grunt.registerTask "default", ["connect", "esteWatch"]
 
-  # リリースビルド
-  grunt.registerTask "release", ["uglify:build", "coffee:build"]
+  # start watch
+  grunt.registerTask "watch", ["esteWatch"]
+
+  # build task
+  grunt.registerTask "build", ["uglify:build", "sass:build"]
