@@ -1,8 +1,9 @@
-lupin
+IEEEeee
 =====
 
-content display for scroll quantity
+search support property html css js for IE
+
 
 ## DEMO
-http://lupin.anticyb.org/
+http://ie.anticyb.org/
 
