@@ -17,7 +17,7 @@ html(ng-app)
         .length
           p キーワードで絞り込み
             input#search(type="text",ng-model="query",name="keywords",placeholder="ex. border-radius",autofocus)
-        table.table(class="ng-cloak", ng-cloak)
+        table.table
           tr
             th プロパティとか
             td IE6
@@ -27,25 +27,25 @@ html(ng-app)
             td IE10
             td IE11
           tr(ng-repeat="prop in props|orderBy:type|filter:query")
-            th
+            th(ng-cloak)
               p.icon: span.type(class="type-{{prop.type}}") {{prop.type}}
               p.desc: span.name {{prop.name}}
-            td(class='{{prop.ie6}}')
+            td(class='{{prop.ie6}}', ng-cloak)
               span(ng-if="prop.ie6") ○
               span(ng-if="!prop.ie6") ×
-            td(class='{{prop.ie7}}')
+            td(class='{{prop.ie7}}', ng-cloak)
               span(ng-if="prop.ie7") ○
               span(ng-if="!prop.ie7") ×
-            td(class='{{prop.ie8}}')
+            td(class='{{prop.ie8}}', ng-cloak)
               span(ng-if="prop.ie8") ○
               span(ng-if="!prop.ie8") ×
-            td(class='{{prop.ie9}}')
+            td(class='{{prop.ie9}}', ng-cloak)
               span(ng-if="prop.ie9") ○
               span(ng-if="!prop.ie9") ×
-            td(class='{{prop.ie10}}')
+            td(class='{{prop.ie10}}', ng-cloak)
               span(ng-if="prop.ie10") ○
               span(ng-if="!prop.ie10") ×
-            td(class='{{prop.ie11}}')
+            td(class='{{prop.ie11}}', ng-cloak)
               span(ng-if="prop.ie11") ○
               span(ng-if="!prop.ie11") ×
 
