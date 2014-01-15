@@ -49,6 +49,7 @@
       text-align: center
   tbody
     th
+      @include clrfx
       width: 50%
     td
       width: 10%
@@ -74,6 +75,14 @@
     padding: 10px
     -webkit-border-radius: 6px
     border-radius: 6px
+
+.icon,.desc
+  float: left
+.icon
+  margin-right: 10px
+.desc
+  width: 280px
+
 
 .type
   display: inline-block

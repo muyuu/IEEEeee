@@ -1,4 +1,4 @@
-!!! 5
+doctype html
 html(ng-app)
   head
     meta(name="viewport",content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no")
@@ -16,8 +16,8 @@ html(ng-app)
       .container(ng-controller="ieCtrl")
         .length
           p キーワードで絞り込み
-            input(type="text",ng-model="query")
-        table.table
+            input#search(type="text",ng-model="query",name="keywords",placeholder="ex. border-radius",autofocus)
+        table.table(class="ng-cloak", ng-cloak)
           tr
             th プロパティとか
             td IE6
@@ -28,20 +28,26 @@ html(ng-app)
             td IE11
           tr(ng-repeat="prop in props|orderBy:type|filter:query")
             th
-              <span class="type type-{{prop.type}}">{{prop.type}}</span><br>
-              span.name {{prop.name}}
-            td.true(ng-if="prop.ie6") ○
-            td.false(ng-if="!prop.ie6") ×
-            td.true(ng-if="prop.ie7") ○
-            td.false(ng-if="!prop.ie7") ×
-            td.true(ng-if="prop.ie8") ○
-            td.false(ng-if="!prop.ie8") ×
-            td.true(ng-if="prop.ie9") ○
-            td.false(ng-if="!prop.ie9") ×
-            td.true(ng-if="prop.ie10") ○
-            td.false(ng-if="!prop.ie10") ×
-            td.true(ng-if="prop.ie11") ○
-            td.false(ng-if="!prop.ie11") ×
+              p.icon: span.type(class="type-{{prop.type}}") {{prop.type}}
+              p.desc: span.name {{prop.name}}
+            td(class='{{prop.ie6}}')
+              span(ng-if="prop.ie6") ○
+              span(ng-if="!prop.ie6") ×
+            td(class='{{prop.ie7}}')
+              span(ng-if="prop.ie7") ○
+              span(ng-if="!prop.ie7") ×
+            td(class='{{prop.ie8}}')
+              span(ng-if="prop.ie8") ○
+              span(ng-if="!prop.ie8") ×
+            td(class='{{prop.ie9}}')
+              span(ng-if="prop.ie9") ○
+              span(ng-if="!prop.ie9") ×
+            td(class='{{prop.ie10}}')
+              span(ng-if="prop.ie10") ○
+              span(ng-if="!prop.ie10") ×
+            td(class='{{prop.ie11}}')
+              span(ng-if="prop.ie11") ○
+              span(ng-if="!prop.ie11") ×
 
 
     footer.pageFooter

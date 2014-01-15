@@ -16,10 +16,10 @@
       <div ng-controller="ieCtrl" class="container">
         <div class="length">
           <p>キーワードで絞り込み
-            <input type="text" ng-model="query">
+            <input id="search" type="text" ng-model="query" name="keywords" placeholder="ex. border-radius" autofocus>
           </p>
         </div>
-        <table class="table">
+        <table ng-cloak class="table ng-cloak">
           <tr>
             <th>プロパティとか</th>
             <td>IE6</td>
@@ -30,19 +30,16 @@
             <td>IE11</td>
           </tr>
           <tr ng-repeat="prop in props|orderBy:type|filter:query">
-            <th><span class="type type-{{prop.type}}">{{prop.type}}</span><br><span class="name">{{prop.name}}</span></th>
-            <td ng-if="prop.ie6" class="true">○</td>
-            <td ng-if="!prop.ie6" class="false">×</td>
-            <td ng-if="prop.ie7" class="true">○</td>
-            <td ng-if="!prop.ie7" class="false">×</td>
-            <td ng-if="prop.ie8" class="true">○</td>
-            <td ng-if="!prop.ie8" class="false">×</td>
-            <td ng-if="prop.ie9" class="true">○</td>
-            <td ng-if="!prop.ie9" class="false">×</td>
-            <td ng-if="prop.ie10" class="true">○</td>
-            <td ng-if="!prop.ie10" class="false">×</td>
-            <td ng-if="prop.ie11" class="true">○</td>
-            <td ng-if="!prop.ie11" class="false">×</td>
+            <th>
+              <p class="icon"><span class="type type-{{prop.type}}">{{prop.type}}</span></p>
+              <p class="desc"><span class="name">{{prop.name}}</span></p>
+            </th>
+            <td class="{{prop.ie6}}"><span ng-if="prop.ie6">○</span><span ng-if="!prop.ie6">×</span></td>
+            <td class="{{prop.ie7}}"><span ng-if="prop.ie7">○</span><span ng-if="!prop.ie7">×</span></td>
+            <td class="{{prop.ie8}}"><span ng-if="prop.ie8">○</span><span ng-if="!prop.ie8">×</span></td>
+            <td class="{{prop.ie9}}"><span ng-if="prop.ie9">○</span><span ng-if="!prop.ie9">×</span></td>
+            <td class="{{prop.ie10}}"><span ng-if="prop.ie10">○</span><span ng-if="!prop.ie10">×</span></td>
+            <td class="{{prop.ie11}}"><span ng-if="prop.ie11">○</span><span ng-if="!prop.ie11">×</span></td>
           </tr>
         </table>
       </div>
