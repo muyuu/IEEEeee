@@ -1,21 +1,24 @@
 {
-  "name": "lupin.js",
+  "name": "IEEeee",
   "version": "0.0.1",
-  "main": "lupin.min.js",
+  "main": "",
   "ignore": [
     "**/.*",
     "node_modules",
     "vendor/*"
   ],
   "devDependencies": {
-    "jquery": "1.9.1",
-    "pocket": "*",
-    "labjs": "*",
+    "angular": "~1.2.4",
     "font-awesome": "~4.0.3",
-    "angular": "~1.2.4"
+    "labjs": "*"
   },
   "exportsOverride": {
-    "jquery": "jquery.min.js",
-    "labjs": "LAB.min.js"
+    "labjs": {
+      "": "LAB.min.js"
+    },
+    "font-awesome": {
+      "css": "css/*.css",
+      "fonts": "fonts/*"
+    }
   }
 }

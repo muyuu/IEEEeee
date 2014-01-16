@@ -4,7 +4,19 @@ module.exports = (grunt) ->
   require('load-grunt-tasks') grunt
 
   grunt.initConfig
-    pkg: grunt.file.readJSON('package.json')
+    # config
+    pkg: grunt.file.readJSON "package.json"
+
+    # Bower
+    bower:
+      install:
+        options:
+          targetDir: 'libs'
+          layout: 'byComponent'
+          install: true
+          verbose: false
+          cleanTargetDir: true
+          cleanBowerDir: true
 
     # local Server
     connect:
@@ -12,7 +24,7 @@ module.exports = (grunt) ->
         options:
           port: 3000
           livereload: true
-          open: true
+          # open: true
 
     # estwatch
     esteWatch:
@@ -91,11 +103,11 @@ module.exports = (grunt) ->
           "app.min.js": ["app.js"]
 
 
+  # Bower Setup
+  grunt.registerTask "init", ["bower:install"]
   # start local server
   grunt.registerTask "default", ["connect", "esteWatch"]
-
   # start watch
   grunt.registerTask "watch", ["esteWatch"]
-
   # build task
   grunt.registerTask "build", ["uglify:build", "sass:build"]
