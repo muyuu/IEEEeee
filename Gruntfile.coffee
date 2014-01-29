@@ -1,10 +1,8 @@
 module.exports = (grunt) ->
-
   # Load grunt tasks automatically
   require('load-grunt-tasks') grunt
 
   grunt.initConfig
-    # config
     pkg: grunt.file.readJSON "package.json"
 
     # Bower
@@ -24,7 +22,7 @@ module.exports = (grunt) ->
         options:
           port: 3000
           livereload: true
-          # open: true
+          open: true
 
     # estwatch
     esteWatch:
@@ -92,9 +90,7 @@ module.exports = (grunt) ->
     jshint:
       options:
         jshintrc: '.jshintrc'
-      all: [
-        'app.js'
-      ]
+      all: ['app.js']
 
     # comp
     uglify:
